@@ -41,3 +41,6 @@ que una cadena demasiado larga se pueda poner en varias líneas';
 const b = 'Este es un ejemplo de como hacer' +
 'que una cadena demasiado larga se pueda poner en varias líneas';
 
+const paperValueAux = '';
+const paperValue = paperValueAux.slice(paperValueAux.indexOf(':') + 2);
+console.log(paperValue);
