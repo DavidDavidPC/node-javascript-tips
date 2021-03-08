@@ -1,4 +1,8 @@
-const a = () => {
+/**
+ * Uso básico de las promesas
+ * */
+
+ const a = () => {
     let promesa = new Promise((resolve, reject) => {
         const b = 'funciona';
         resolve(b);
