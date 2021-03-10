@@ -15,7 +15,11 @@ const today3 = new Date().toISOString();
  */
 const dateString = "23/10/2015";
 const dateParts = dateString.split("/");
-console.log(dateParts);
-// month is 0-based, that's why we need dataParts[1] - 1
 const dateObject = new Date(+dateParts[2], +dateParts[1] - 1, +dateParts[0] + 1); 
-console.log(dateObject);
+// console.log(dateObject);
+
+/**
+ * Completar el mes con un 0 delante
+ */
+const month = '8';
+console.log(month.padStart(2, '0'));
