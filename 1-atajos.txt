@@ -1,0 +1,5 @@
+Mover líneas
+Alt + cursor
+
+Clonar líneas
+Alt + Shift + cursor
