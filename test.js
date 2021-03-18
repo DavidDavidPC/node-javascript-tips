@@ -1,7 +1,12 @@
-const issues = [
-    { jiraKey: 'IMH-15475', hpCode: 'IM670920', attachments: ['adjunto1, adjunto2'] },
-    { jiraKey: 'IMH-15476', hpCode: 'IM670907', attachments: ['Sin adjuntos'] }
-];
+const obj = {
+    prop1: "propiedad 1",
+    prop2: "propiedad 2",
+    prop3: "propiedad 3",
+    prop4: "propiedad 4",
+    method1: () => {
+        return 'Imprime';
+    }
+};
 
-let hpCodes = issues.map(issue => {return issue.attachments});
-console.log(hpCodes);
+const {prop1, ...nuevoObjeto} = obj;
+console.log(nuevoObjeto);
