@@ -8,12 +8,12 @@ const obj = {
     }
 };
 
-// console.log(obj.prop1);
-// const str = obj.method1();
-// console.log(str);
+console.log(obj.prop1);
+const str = obj.method1();
+console.log(str);
 
 /**
- * Recorrer un objeto
+ * Recorrer un objeto. Se puede poner for await si queremos que sea todo síncrono. (si dentro tenemos awaits)
  */
 
  for (const property in obj) {
@@ -27,6 +27,7 @@ const obj = {
 
   /**
    * Quitar una propiedad de un objeto
+   * Crea una copia del objeto original dejando el original como estaba.
    */
 
   const {prop1, ...nuevoObjeto} = obj;
