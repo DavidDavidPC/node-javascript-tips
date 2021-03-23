@@ -13,22 +13,22 @@ const str = obj.method1();
 console.log(str);
 
 /**
- * Recorrer un objeto. Se puede poner for await si queremos que sea todo síncrono. (si dentro tenemos awaits)
+ ** Recorrer un objeto. Se puede poner for await si queremos que sea todo síncrono. (si dentro tenemos awaits)
  */
 
- for (const property in obj) {
-   console.log(`${property}: ${object[property]}`);
- }
+for (const property in obj) {
+  console.log(`${property}: ${object[property]}`);
+}
 
- /**
-  * Ver el objeto en consola
-  */
-  console.log(JSON.stringify(object).toString());
+/**
+* Ver el objeto en consola
+*/
+console.log(JSON.stringify(object).toString());
 
-  /**
-   * Quitar una propiedad de un objeto
-   * Crea una copia del objeto original dejando el original como estaba.
-   */
+/**
+ * Quitar una propiedad de un objeto
+ * Crea una copia del objeto original dejando el original como estaba.
+ */
 
-  const {prop1, ...nuevoObjeto} = obj;
-  console.log(nuevoObjeto);
+const {prop1, ...nuevoObjeto} = obj;
+console.log(nuevoObjeto);
