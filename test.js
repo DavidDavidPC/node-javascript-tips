@@ -1,3 +1,5 @@
-const arr = [];
-const arr5 = Array(5);
-console.log(arr5);
+let count = 0
+do {
+  console.log(count);
+  count++;
+} while (count < 11)
