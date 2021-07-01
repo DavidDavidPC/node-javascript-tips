@@ -1,5 +1,3 @@
-const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
-
-const result = words.filter(word => word.length > 6);
-
-console.log(result);
+const arr = [];
+const arr5 = Array(5);
+console.log(arr5);
