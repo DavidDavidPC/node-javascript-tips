@@ -32,3 +32,7 @@ console.log(JSON.stringify(object).toString());
 
 const {prop1, ...nuevoObjeto} = obj;
 console.log(nuevoObjeto);
+
+//Comprobar si el objeto está vacío
+Object.entries(obj).length === 0;
+console.log(Object.entries(obj).length === 0); //false

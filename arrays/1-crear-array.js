@@ -40,3 +40,7 @@ const miHonda = { color: 'red', ruedas: 4, motor: { cilindros: 4, cantidad: 2.2 
 const miCoche = [miHonda, 2, 'Buen estado', 'comprado 1997'];
 const nuevoCoche = miCoche.slice(0, 2);
 console.log(nuevoCoche);
+
+//Crear un array donde cada elemento es su índice.
+const arr = [...Array(10).keys()];
+console.log(arr);

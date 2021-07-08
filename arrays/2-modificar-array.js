@@ -38,8 +38,13 @@ console.log(arr);
 
 //Eliminar elemento del inicio
 const arr = ['item1', 'item2', 'item3'];
-arr.shift('new item');
+arr.shift();
 console.log(arr);
+
+//Añadir elemento del inicio
+const arr = ['item1', 'item2', 'item3'];
+arr.shift('New Item');
+console.log(arr); //[ 'new item', 'item1', 'item2', 'item3' ]
 
 //Revertir el orden del array
 const arr = ['item1', 'item2', 'item3'];
@@ -50,3 +55,7 @@ console.log(arr);
 const arr = ['item5', 'item2', 'item3'];
 arr.sort();
 console.log(arr);
+
+//Vaciar array
+const arr = ['item5', 'item2', 'item3'];
+arr.length = 0;
